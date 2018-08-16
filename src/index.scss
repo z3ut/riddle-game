@@ -1,0 +1,64 @@
+$chat-width: 40em;
+
+html, body {
+  height: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 1em;
+  box-sizing: border-box;
+}
+
+.chat {
+  width: $chat-width;
+  border: 1px solid grey;
+  border-radius: .5em;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding: .5em;
+  flex: 1;
+}
+
+.question {
+  float: right;
+  width: 80%;
+  padding: 1em;
+  background-color: lightgoldenrodyellow;
+  border-radius: .25em;
+  margin: .5em;
+}
+
+.answer {
+  float: left;
+  width: 80%;
+  padding: 1em;
+  background-color: lightblue;
+  border-radius: .25em;
+  margin: .5em;
+}
+
+.question-input {
+  margin-top: 1em;
+  display: flex;
+}
+
+.question-input textarea {
+  resize: none;
+  border-radius: .5em;
+  box-shadow: none;
+  flex: 1;
+}
+
+.question-input button {
+  margin-left: 0.5em;
+  cursor: pointer;
+  width: 5em;
+  border-radius: .5em;
+}

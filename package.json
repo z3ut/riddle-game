@@ -1,0 +1,21 @@
+{
+  "name": "riddle-game",
+  "version": "1.0.0",
+  "description": "Riddle game with browser speech recognition api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html -d docs"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "rxjs": "^6.2.2"
+  },
+  "devDependencies": {
+    "cssnano": "^4.0.5",
+    "node-sass": "^4.9.3",
+    "typescript": "^3.0.1"
+  }
+}
